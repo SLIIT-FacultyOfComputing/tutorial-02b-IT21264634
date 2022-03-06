@@ -68,7 +68,7 @@ void main(void)
    printf("Enter Employee Type : ");
    scanf("%d", &etype);
    printf("Enter Salary  : ");
-   scanf("%f", &salary);
+   scanf("%lf", &salary);
    printf("Enter OtHrs : ");
    scanf("%d", &otHrs); 
    
@@ -86,7 +86,7 @@ void main(void)
 
 
    netSalary = salary + otHrs* otRate;
-   printf("Net Salary is %f ", netSalary);
+   printf("Net Salary is %lf ", netSalary);
 }
 ```
 
